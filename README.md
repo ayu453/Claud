@@ -20,7 +20,8 @@ Local development defaults to SQLite. Set `DATABASE_URL` to PostgreSQL for stagi
 
 ## Repository layout
 - `docs/PRODUCT_SPEC.md` — product rules, UX, architecture, business model, pilot and roadmap.
-- `backend/app/` — FastAPI API, SQLAlchemy models and progression logic.
+- `backend/app/` — FastAPI API, SQLAlchemy models and daily progression logic.
+- `frontend/` — responsive interactive student prototype (static PWA shell).
 - `content/sample_questions.csv` — original sample questions.
 - `.env.example` — local configuration template.
 
